@@ -28,4 +28,4 @@ jobs:
     - name: Copy to Remote Server
       run: >-
         mkdir -p $HOME/.ssh; (echo "${{ secrets.SSH_KEY }}" > $HOME/.ssh/id_rsa); chmod 0600 $HOME/.ssh/id_rsa;
-        ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/id_rsa ${{ env.SERVER_HOST }}:./public_html;
+        ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/id_rsa -r dist/* ${{ env.SERVER_HOST }}:./public_html;
