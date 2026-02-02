@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: 20
     - name: Run clean install
-      uses: npm ci
+      run: npm ci
     - name: Build release binary
       run: npm run build
       # 1. Install the SSH identifier from action secrets 
