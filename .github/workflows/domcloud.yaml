@@ -20,10 +20,6 @@ jobs:
       run: npm ci
     - name: Build release binary
       run: npm run build
-      # 1. Install the SSH identifier from action secrets 
-      # 2. Kill the app (unlocks the binary for writing)
-      # 3. Copy app binary to server
-      # 4. Also copy static files also needed by the binaries
     - name: Deploy Astro Build
       uses: appleboy/scp-action@v0.1.7 # Use a specific version tag
       with:
