@@ -32,6 +32,13 @@ jobs:
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_KEY_B64 }}" | base64 -d > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
+    - name: Validate SSH Key Format
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_KEY_B64 }}" | base64 -d > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+
+        ssh-keygen -l -f ~/.ssh/id_ed25519 || echo "Key unreadable"
     - name: Debug SSH
       run: |
         ls -la ~/.ssh
