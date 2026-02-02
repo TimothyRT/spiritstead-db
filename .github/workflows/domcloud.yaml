@@ -6,9 +6,6 @@ on:
       - master
   workflow_dispatch:
 
-env:
-  SERVER_HOST: spiritstead@sgp.domcloud.co
-
 jobs:
   copy:
     runs-on: ubuntu-latest
@@ -28,5 +25,11 @@ jobs:
       # 3. Copy app binary to server
       # 4. Also copy static files also needed by the binaries
     - name: Deploy Astro Build
-      run: |
-        scp -r dist/. ${{ env.SERVER_HOST }}:public_html/
+      uses: appleboy/scp-action@v0.1.7 # Use a specific version tag
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        source: "./dist/*" # Source files in your repo
+        target: "/public_html" # Remote destination path
