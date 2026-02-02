@@ -31,5 +31,5 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        source: "/public_html/dist/*" # Source files in your repo
+        source: "dist/*" # Source files in your repo
         target: "/public_html" # Remote destination path
