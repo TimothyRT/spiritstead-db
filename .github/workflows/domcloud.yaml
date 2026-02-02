@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v5
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
@@ -27,24 +27,6 @@ jobs:
       # 2. Kill the app (unlocks the binary for writing)
       # 3. Copy app binary to server
       # 4. Also copy static files also needed by the binaries
-    - name: Setup SSH
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_KEY_B64 }}" | base64 -d > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-    - name: Validate SSH Key Format
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_KEY_B64 }}" | base64 -d > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-
-        ssh-keygen -l -f ~/.ssh/id_rsa || echo "Key unreadable"
-    - name: Debug SSH
-      run: |
-        ls -la ~/.ssh
-        ssh -vvv -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ env.SERVER_HOST }} "echo SSH OK"
-    - name: Test SSH Connection
-      run: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ env.SERVER_HOST }} "echo SSH OK"
     - name: Deploy Astro Build
       run: |
-        scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa -r dist/. ${{ env.SERVER_HOST }}:public_html/
+        scp -r dist/. ${{ env.SERVER_HOST }}:public_html/
