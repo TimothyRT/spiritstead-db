@@ -21,11 +21,11 @@ jobs:
     - name: Build release binary
       run: npm run build
     - name: Deploy Astro Build
-      uses: appleboy/scp-action@v0.1.7 # Use a specific version tag
+      uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        source: "dist/*" # Source files in your repo
-        target: "public_html" # Remote destination path
+        source: "dist/*"
+        target: "public_html"
