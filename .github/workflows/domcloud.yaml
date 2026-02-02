@@ -28,4 +28,4 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: 22
         source: "dist/*" # Source files in your repo
-        target: "/public_html" # Remote destination path
+        target: "public_html" # Remote destination path
