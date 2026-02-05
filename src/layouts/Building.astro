@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from './BaseLayout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout title={frontmatter.title}>
+    <h3>{frontmatter.category}</h3>
+    <h1>{frontmatter.title} ({frontmatter.subcategory})</h1>
+
+    <img src={`/images/${frontmatter.image}`} alt={frontmatter.title} width="100" height="100" />
+
+    <h2>Description</h2>
+    <ul>
+        <li><b>Creative:</b> {frontmatter.desc.creative}</li>
+        <li><b>Survival:</b> {frontmatter.desc.survival}</li>
+    </ul>
+
+    <h2>Price</h2>
+    <table>
+        <tr>
+            <th>Gold</th>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <th>No. of items</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+</BaseLayout>
