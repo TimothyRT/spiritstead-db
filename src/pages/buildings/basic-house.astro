@@ -1,0 +1,7 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+const building = await getEntry('buildings', 'basic-house');
+---
+
+<h1>{building.data.title}</h1>
+<h2>{building.data.desc}</h2>

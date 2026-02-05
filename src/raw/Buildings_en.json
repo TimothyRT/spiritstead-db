@@ -1,0 +1,1106 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2378050947708348859
+  },
+  "m_Name": "Buildings_en",
+  "m_LocaleId": {
+    "m_Code": "en"
+  },
+  "m_SharedData": {
+    "m_FileID": 1,
+    "m_PathID": 1993827574671144874
+  },
+  "m_Metadata": {
+    "m_Items": []
+  },
+  "m_TableData": [
+    {
+      "m_Id": 13078848098304,
+      "m_Localized": "Coming soon",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 18900097454080,
+      "m_Localized": "Shovel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 18925498159104,
+      "m_Localized": "Time to go! Demolish and sell unwanted buildings/Objects",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 18948986261504,
+      "m_Localized": "Move Buildings",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 18972143013888,
+      "m_Localized": "Oopsie! You can move a building if you've changed your mind",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 18994955833344,
+      "m_Localized": "Humble Straw Hut",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19016967540736,
+      "m_Localized": "Just a roof, some straw, and a dream. Perfect for 1 villager. +1 Pop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19039818108928,
+      "m_Localized": "Just a roof, some straw, and a dream",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19061594935296,
+      "m_Localized": "Basic House",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19084307091456,
+      "m_Localized": "Sturdy, simple, and just enough room for a villager. +1 Pop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19107497398272,
+      "m_Localized": "Sturdy, simple, and just enough room for a villager",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19129072898048,
+      "m_Localized": "Log Cabin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19148601577472,
+      "m_Localized": "Wood, logs, and a little bit of charm. Perfect for 2 adventurers. +2 Pop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19174102945792,
+      "m_Localized": "Wood, logs, and a little bit of charm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19194973802496,
+      "m_Localized": "Family House",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19216515747840,
+      "m_Localized": "Room for the whole gang - kids, pets, and even the neighbor’s cat. +3 Pop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19238657478656,
+      "m_Localized": "Room for the whole gang - kids, pets, and even the neighbor’s cat",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19261071839232,
+      "m_Localized": "Town Hall",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19282991271936,
+      "m_Localized": "Where decisions are made, and the whole town comes together. +5 Pop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19304457719808,
+      "m_Localized": "Where decisions are made, and the whole town comes together",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19324087062528,
+      "m_Localized": "Logcutting Station",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19345528344576,
+      "m_Localized": "Chop, chop, and watch the wood pile up. +0.6 Wood every 7sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19366432755712,
+      "m_Localized": "Chop, chop, and watch the wood pile up",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19384954802176,
+      "m_Localized": "Carrot Plot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19404781277184,
+      "m_Localized": "Grow carrots, reap Food. +3 Food every 14sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19425316589568,
+      "m_Localized": "Grow carrots, reap Food",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19446460076032,
+      "m_Localized": "Wood Warehouse",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19465753874432,
+      "m_Localized": "Increase max wood capacity by 5",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19486721200128,
+      "m_Localized": "Increase max wood capacity",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19506891608064,
+      "m_Localized": "Food Warehouse",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19540441845760,
+      "m_Localized": "Increase max food capacity by 5",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19554635370496,
+      "m_Localized": "Increase max food capacity",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19581109817344,
+      "m_Localized": "Chicken Coop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19603322851328,
+      "m_Localized": "Keep the chickens happy, and gold will come. Chance to lay eggs (1 food) every 5sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19625871429632,
+      "m_Localized": "Keep the chickens happy, and gold will come",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19648482922496,
+      "m_Localized": "Sawmill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19669659963392,
+      "m_Localized": "Cut, mill, and profit! +4.8 Wood every 36sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19692380508160,
+      "m_Localized": "Cut, mill, and profit!",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19712076959744,
+      "m_Localized": "Pumpkin Patch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19734852030464,
+      "m_Localized": "Not just for Halloween - these pumpkins bring plenty. +4.8 Food every 36sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19756700160000,
+      "m_Localized": "Not just for Halloween - these pumpkins bring plenty",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19777394855936,
+      "m_Localized": "Blueberry Field",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19797934362624,
+      "m_Localized": "A cheerful little field of blueberries, ripe for harvest. +5.1 every 30sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19818473869312,
+      "m_Localized": "A cheerful little field of blueberries, ripe for harvest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19839541858304,
+      "m_Localized": "Blueberry Shack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19858978263040,
+      "m_Localized": "A cozy place to store blueberries and watch the gold roll in. +3gold every 30sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19879907840000,
+      "m_Localized": "A cozy place to store blueberries and watch the gold roll in",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19899537182720,
+      "m_Localized": "Sheep Farm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19919401406464,
+      "m_Localized": "A pasture full of sheep, with plenty to give. Chance to give wool (1 gold) every 5sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 19940070936576,
+      "m_Localized": "A pasture full of sheep, with plenty to give",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20085793640448,
+      "m_Localized": "Wheat Field",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20111127236608,
+      "m_Localized": "Golden crops swaying in the breeze, waiting for the right time. +3 Food every 60sec automatically",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20133885530112,
+      "m_Localized": "Golden crops swaying in the breeze, waiting for the right time",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20167666454528,
+      "m_Localized": "Windmill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20188604420096,
+      "m_Localized": "A towering structure that turns the wind into something more. +12 every 180sec automatically",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20210314137600,
+      "m_Localized": "A towering structure that turns the wind into something more",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20231923191808,
+      "m_Localized": "Stone Goat Shelter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20252089405440,
+      "m_Localized": "Protecting goats with stone and care (not functioning)",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20272628912128,
+      "m_Localized": "Protecting goats with stone and care",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20293290053632,
+      "m_Localized": "Cabbage Plot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20313087168512,
+      "m_Localized": "Cabbages grow, gold flows. +4 Gold every 40sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20333391794176,
+      "m_Localized": "Cabbages grow, gold flows",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20354459783168,
+      "m_Localized": "Vineyard",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20374026211328,
+      "m_Localized": "Grapes thrive in abundance, and so does the land. +2 every 36sec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20394897068032,
+      "m_Localized": "Grapes thrive in abundance, and so does the land",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20415595958272,
+      "m_Localized": "Bonfire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20435627954176,
+      "m_Localized": "After a hard day's work, gather around and relax. +4% happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20457438334976,
+      "m_Localized": "After a hard day's work, gather around and relax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20478242082816,
+      "m_Localized": "Tiny Fountain",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20499951800320,
+      "m_Localized": "A small splash of tranquility in a busy town. +8% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20521896398848,
+      "m_Localized": "A small splash of tranquility in a busy town",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20544977653760,
+      "m_Localized": "Market Stall",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20566620262400,
+      "m_Localized": "A little shopping goes a long way to lift the spirits. +15% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20588296425472,
+      "m_Localized": "A little shopping goes a long way to lift the spirits",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20884481396736,
+      "m_Localized": "Small Cafe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20909647220736,
+      "m_Localized": "Sip, relax, and feel the happiness flow. +20% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20933772857344,
+      "m_Localized": "Sip, relax, and feel the happiness flow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20955008618496,
+      "m_Localized": "Happy Tavern",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20975749451776,
+      "m_Localized": "Laughter, music, and a warm drink to lift your spirits. +50% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 20996381233152,
+      "m_Localized": "Laughter, music, and a warm drink to lift your spirits",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21015473704960,
+      "m_Localized": "Dirt Road",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21034331295744,
+      "m_Localized": "A humble trail to connect your land, sturdy and straight. +1% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21054463954944,
+      "m_Localized": "A humble trail to connect your land, sturdy and straight",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21073522872320,
+      "m_Localized": "A road that opens new possibilities, connecting your dirt paths to anything else. +1% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21092380463104,
+      "m_Localized": "A road that opens new possibilities, connecting your dirt paths to anything else",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21114358616064,
+      "m_Localized": "Clothesline",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21136370323456,
+      "m_Localized": "Hang your clothes, let the breeze do the rest. +10% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21157610278912,
+      "m_Localized": "Hang your clothes, let the breeze do the rest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21179148029952,
+      "m_Localized": "Wooden Fence",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21199117111296,
+      "m_Localized": "A sturdy boundary, simple and strong. +2% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21218272497664,
+      "m_Localized": "A sturdy boundary, simple and strong",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21237805371392,
+      "m_Localized": "A connector that links your wooden fences with anything else. +2% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21258709782528,
+      "m_Localized": "A connector that links your wooden fences with anything else",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21286488657920,
+      "m_Localized": "Wooden Gates",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21309205008384,
+      "m_Localized": "A simple entrance to welcome and protect. +2% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21328968568832,
+      "m_Localized": "A simple entrance to welcome and protect",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21350141415424,
+      "m_Localized": "Road Sign",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21370542510080,
+      "m_Localized": "Point the way, so no one gets lost. A helpful guide for your village. +2% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21391312703488,
+      "m_Localized": "Point the way, so no one gets lost. A helpful guide for your village",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21412582019072,
+      "m_Localized": "Sitting Bench",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21462678786048,
+      "m_Localized": "A simple spot to take a load off and enjoy the view. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21498414256128,
+      "m_Localized": "A simple spot to take a load off and enjoy the view",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21513916403712,
+      "m_Localized": "Dog House",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21546367733760,
+      "m_Localized": "A snug house for your dog and a pup to keep things extra cute. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21568006148096,
+      "m_Localized": "A snug house for your dog and a pup to keep things extra cute",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21589044776960,
+      "m_Localized": "Lantern Post",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21610251177984,
+      "m_Localized": "A humble light to brighten the village paths through the forest at night. +5% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21630450946048,
+      "m_Localized": "A humble light to brighten the village paths through the forest at night",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21651187585024,
+      "m_Localized": "Scarecrow Billy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21671353798656,
+      "m_Localized": "Billy stands tall, keeping the crops safe and the birds guessing. +4% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21699103313920,
+      "m_Localized": "Billy stands tall, keeping the crops safe and the birds guessing",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21723698712576,
+      "m_Localized": "Flower Pot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21746612195328,
+      "m_Localized": "A small pot of life to bring a little color and joy to your space. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21767386583040,
+      "m_Localized": "A small pot of life to bring a little color and joy to your space",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21788525875200,
+      "m_Localized": "Sunflower Bed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21810596302848,
+      "m_Localized": "Tall and bright, these sunflowers bring warmth and cheer to any corner. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21837448237056,
+      "m_Localized": "Tall and bright, these sunflowers bring warmth and cheer to any corner",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21860965699584,
+      "m_Localized": "Flower Plot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21884353138688,
+      "m_Localized": "A simple quartet of happy flowers, bringing a small moment of uncomplicated joy to your view. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21904116699136,
+      "m_Localized": "A simple quartet of happy flowers, bringing a small moment of uncomplicated joy to your view",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21926094852096,
+      "m_Localized": "Bush",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 21946256871424,
+      "m_Localized": "A nice and firm bush. +2% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22012698841088,
+      "m_Localized": "A nice and firm bush",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22037092913152,
+      "m_Localized": "Stone Wall",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22059373056000,
+      "m_Localized": "A strong, reliable barrier to protect your land, built to last. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22080210358272,
+      "m_Localized": "A strong, reliable barrier to protect your land, built to last",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22100913442816,
+      "m_Localized": "The perfect link to connect your stone walls, expanding your defenses. +3% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22122753183744,
+      "m_Localized": "The perfect link to connect your stone walls, expanding your defenses",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22179493728256,
+      "m_Localized": "Apple Tree",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22205024456704,
+      "m_Localized": "A sturdy Apple Tree with vibrant green leaves. +8% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22230832009216,
+      "m_Localized": "A sturdy Apple Tree with vibrant green leaves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22252105519104,
+      "m_Localized": "Cherryblossom Tree",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22271294459904,
+      "m_Localized": "A graceful tree that whispers spring, with blossoms that dance in the breeze. +12% Happiness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22292572164096,
+      "m_Localized": "A graceful tree that whispers spring, with blossoms that dance in the breeze",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22311899516928,
+      "m_Localized": "Spirit Portal Opener",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22331960872960,
+      "m_Localized": "Opens the portal to let in a friendly spirit who helps collecting resources",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22353909665792,
+      "m_Localized": "Friendly spirit summoner",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22374474338304,
+      "m_Localized": "Crystal Node",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22395349389312,
+      "m_Localized": "A radiant gem deposit where spirits extract sparkling crystals. (+3 every 60s)",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22421450543104,
+      "m_Localized": "A radiant gem deposit where spirits extract sparkling crystals",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22443390947328,
+      "m_Localized": "Crystal Stash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22466447036416,
+      "m_Localized": "Increase max crystal capacity by 5",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22487586328576,
+      "m_Localized": "Increase max crystal capacity",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22507484106752,
+      "m_Localized": "Spirit Portal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22529026052096,
+      "m_Localized": "A spirit portal that bridges the mortal and spirit realms",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22548890275840,
+      "m_Localized": "Spirit Shrine",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22570629353472,
+      "m_Localized": "Summons extra resource collecting spirits to assist your village",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22604150231040,
+      "m_Localized": "Railway Track",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22628313616384,
+      "m_Localized": "Bush",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 22649884921856,
+      "m_Localized": "Rock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 1486042877677568,
+      "m_Localized": "Follow Cam",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 1486056957956096,
+      "m_Localized": "Follow a villager up close to watch their actions in detail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 1547027189616640,
+      "m_Localized": "Spirit Book",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 1547201056100352,
+      "m_Localized": "A record of every spirit you’ve welcomed into the village, along with their 1–3 star rating",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    }
+  ],
+  "references": {
+    "version": 2,
+    "RefIds": []
+  }
+}
