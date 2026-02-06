@@ -1,14 +1,31 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from './BaseLayout.astro';
+import Currency from '../components/Currency.astro';
 const { frontmatter } = Astro.props;
+
+const allImages = import.meta.glob('../images/**/*.png', { eager: true });
+const imagePath = frontmatter.icon
+  ? `../images/${frontmatter.icon}`
+  : '../images/nan.png';
+const image = allImages[imagePath]?.default;
 ---
 
 <BaseLayout title={frontmatter.title}>
-    <h3>{frontmatter.category}</h3>
-    <h1>{frontmatter.title} ({frontmatter.subcategory})</h1>
+    <h3>{frontmatter.category} ({frontmatter.subcategory})</h3>
+    <h1>{frontmatter.title}</h1>
+    
+    {image && (
+      <Image
+        src={image}
+        alt={frontmatter.title}
+        width={frontmatter.icon_width ?? 100}
+        format="webp"
+        quality={80}
+      />
+    )}
 
-    <img src={`/images/${frontmatter.image}`} alt={frontmatter.title} width="100" height="100" />
+    <p><i>Unlocked at level {frontmatter.unlocked_at}</i></p>
 
     <h2>Description</h2>
     <ul>
@@ -16,23 +33,50 @@ const { frontmatter } = Astro.props;
         <li><b>Survival:</b> {frontmatter.desc.survival}</li>
     </ul>
 
-    <h2>Price</h2>
-    <table>
-        <tr>
-            <th>Gold</th>
-            <td>?</td>
-            <td>?</td>
-            <td>?</td>
-            <td>?</td>
-            <td>?</td>
-        </tr>
-        <tr>
-            <th>No. of items</th>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-    </table>
+    {frontmatter.price && (
+        <h2>Price</h2>
+    )}
+
+    {frontmatter.price && typeof frontmatter.price === 'number' && (
+        <table>
+            <tr>
+                <th>
+                    {frontmatter.currency && frontmatter.currency === 'Wood' && (
+                        <Currency category="wood" /> <span>Wood</span>
+                    )}
+                    {frontmatter.currency && frontmatter.currency === 'Food' && (
+                        <Currency category="food" /> <span>Food</span>
+                    )}
+                    {frontmatter.currency && frontmatter.currency === 'Gold' && (
+                        <Currency category="gold" /> <span>Gold</span>
+                    )}
+                    {frontmatter.currency && frontmatter.currency === 'Crystal' && (
+                        <Currency category="crystal" /> <span>Crystal</span>
+                    )}
+                </th>
+                <td>{frontmatter.price}</td>
+            </tr>
+        </table>
+    )}
+
+    {frontmatter.price && Array.isArray(frontmatter.price) && (
+        <table>
+            <tr>
+                <th>Gold</th>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <th>No. of items</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </table>
+    )}
 </BaseLayout>
