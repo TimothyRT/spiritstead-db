@@ -9,6 +9,10 @@ const imagePath = frontmatter.icon
   ? `../images/${frontmatter.icon}`
   : '../images/nan.png';
 const image = allImages[imagePath]?.default;
+
+function isPlainObject(value: any) {
+  return value !== null && typeof value === 'object' && !Array.isArray(value);
+}
 ---
 
 <BaseLayout title={frontmatter.title}>
@@ -37,6 +41,8 @@ const image = allImages[imagePath]?.default;
         <h2>Price</h2>
     )}
 
+    <!-- IF price is a single number, -->
+    <!-- THEN currency has to be a single string -->
     {frontmatter.price && typeof frontmatter.price === 'number' && (
         <table>
             <tr>
@@ -59,15 +65,37 @@ const image = allImages[imagePath]?.default;
         </table>
     )}
 
+    <!-- ELIF frontmatter.price is an array, -->
+    <!-- THEN currency has to be a single string -->
     {frontmatter.price && Array.isArray(frontmatter.price) && (
         <table>
             <tr>
-                <th>Gold</th>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
-                <td>?</td>
+                <th><Currency category="gold" /> Gold</th>
+                {frontmatter.price.map((value: number) => (
+                    <td>{value}</td>
+                ))}
+            </tr>
+            <tr>
+                <th>No. of items</th>
+                {frontmatter.price.map((value: number, index: number) => (
+                    <td>{index + 1}</td>
+                ))}
+            </tr>
+        </table>
+    )}
+
+    <!-- {frontmatter.price && isPlainObject(frontmatter.price) && (
+        <table>
+            <tr>
+                {'gold' in frontmatter.price && (
+                    <th><Currency category="gold" /> Gold</th>
+                    {typeof frontmatter.price.gold === 'number' && (
+                        <td>{frontmatter.price.gold}</td>
+                    )}
+                    {Array.isArray(frontmatter.price.gold) && frontmatter.price.gold.map((gold) => (
+                        <td>{gold}</td>
+                    ))}
+                )}
             </tr>
             <tr>
                 <th>No. of items</th>
@@ -78,5 +106,5 @@ const image = allImages[imagePath]?.default;
                 <td>5</td>
             </tr>
         </table>
-    )}
+    )} -->
 </BaseLayout>
